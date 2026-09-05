@@ -27,9 +27,25 @@
   <li>Resistors & Jumper Wires</li>
 </ul>
 
-<h2>⚙️ Working</h2>
+<h2>⚙️ Working Flowchart</h2>
+
 <p>
-  <strong>Motion Detected → Warning → PIN Verification → Access Granted / Alarm → Lockout</strong>
+  <strong>Start</strong>
+  → PIR Sensor Detects Motion
+  → 3-Second Warning
+  → Enter PIN
+  → PIN Correct?
+</p>
+
+<p>
+  <strong>YES</strong> → Access Granted → Silent Mode → System Secure
+</p>
+
+<p>
+  <strong>NO</strong> → Buzzer + Red LED ON
+  → Wrong Attempts Count
+  → 3 Attempts Reached?
+  → <strong>YES</strong> → Lockout Mode
 </p>
 
 <h2>📁 Files</h2>
