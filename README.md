@@ -38,6 +38,16 @@
   <li><code>Circuit.png</code> — Circuit diagram</li>
   <li><code>Presentation.pdf</code> — Project presentation</li>
 </ul>
+<h2>👥 Team Members</h2>
+
+<ul>
+  <li>Pratyush Kumar</li>
+  <li>Kashish kumari</li>
+  <li>Anushka kumari</li>
+  <li>Riddhima Gupta</li>
+  <li>Anish Kumar</li>
+  <li>Chirag Kumar Chaudhary</li>
+</ul>
 
 <p>
   <strong>Built with ❤️ using Arduino Uno.</strong>
