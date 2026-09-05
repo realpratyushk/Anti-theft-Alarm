@@ -1,4 +1,4 @@
-<h1>🔐 Smart Anti-Theft Alarm System</h1>
+<h1>🔐 Anti-Theft Alarm System</h1>
 
 <p>
   An Arduino-based security system that uses a <strong>PIR sensor</strong> and
