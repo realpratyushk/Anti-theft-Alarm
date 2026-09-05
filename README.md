@@ -1,40 +1,44 @@
-🔐 Smart Anti-Theft Alarm System
+<h1>🔐 Smart Anti-Theft Alarm System</h1>
 
-An Arduino-based smart security system designed to protect lockers from unauthorized access using PIR motion detection, PIN authentication, buzzer, LEDs, and LCD display.
+<p>
+  An Arduino-based security system that uses a <strong>PIR sensor</strong> and
+  <strong>PIN authentication</strong> to detect and prevent unauthorized locker access,
+  with <strong>buzzer, LED, and LCD alerts</strong>.
+</p>
 
-✨ Features
-🚨 Motion detection using PIR sensor
-🔢 4×4 keypad PIN authentication
-🔊 Buzzer alarm for unauthorized access
-🔴 Red LED warning/alarm indicator
-🟢 Green LED armed/silent indicator
-🔒 Lockout after 3 incorrect PIN attempts
-⏱️ Warning, silent, and lockout timers
-📟 16×2 LCD status display
-🛠️ Components
-Arduino Uno
-PIR Sensor
-4×4 Keypad
-16×2 LCD
-Buzzer
-Red & Green LEDs
-Resistors & jumper wires
-⚙️ System Flow
+<h2>✨ Features</h2>
+<ul>
+  <li>🚨 PIR-based motion detection</li>
+  <li>🔢 4×4 keypad PIN authentication</li>
+  <li>🔊 Buzzer alarm for unauthorized access</li>
+  <li>🔴 Red & 🟢 Green LED indicators</li>
+  <li>🔒 Lockout after multiple wrong attempts</li>
+  <li>📟 LCD status display</li>
+</ul>
 
-Motion Detected → Warning → PIN Verification → Access Granted / Alarm → Lockout after 3 wrong attempts
+<h2>🛠️ Components</h2>
+<ul>
+  <li>Arduino Uno</li>
+  <li>PIR Sensor</li>
+  <li>4×4 Keypad</li>
+  <li>16×2 LCD</li>
+  <li>Buzzer</li>
+  <li>Red & Green LEDs</li>
+  <li>Resistors & Jumper Wires</li>
+</ul>
 
-🚀 Getting Started
-Open anti_theft_alarm1.ino in Arduino IDE.
-Connect the components according to the circuit.
-Install the LiquidCrystal and Keypad libraries.
-Upload the code to Arduino Uno.
-Default PIN: 2580
+<h2>⚙️ Working</h2>
+<p>
+  <strong>Motion Detected → Warning → PIN Verification → Access Granted / Alarm → Lockout</strong>
+</p>
 
-Note: The current Arduino code implements the local alarm and security logic. Mobile/IoT notification functionality is part of the proposed system concept but is not implemented in this .ino file.
+<h2>📁 Files</h2>
+<ul>
+  <li><code>anti_theft_alarm1.ino</code> — Arduino source code</li>
+  <li><code>Circuit.png</code> — Circuit diagram</li>
+  <li><code>Presentation.pdf</code> — Project presentation</li>
+</ul>
 
-📁 Files
-anti_theft_alarm1.ino — Arduino source code
-Circuit.png — Circuit diagram
-Presentation.pdf — Project presentation
-
-Built with ❤️ using Arduino Uno.
+<p>
+  <strong>Built with ❤️ using Arduino Uno.</strong>
+</p>
